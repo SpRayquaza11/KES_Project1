@@ -1,0 +1,159 @@
+body {
+  background: black;
+}
+#priBox {
+  /* border: 2px solid red; */
+  height: 86.7vh;
+}
+#priBox .prim_img {
+  height: 120px;
+  width: 120px;
+  margin: auto;
+  display: block;
+  margin-top: 30px;
+  border-radius: 66px;
+  transform: rotate(-10deg);
+}
+#secBox {
+  /* border: 2px solid yellow; */
+  background: white;
+  height: 457px;
+  margin: -85px 185px;
+  display: flex;
+  flex-direction: column;
+}
+#secBox form {
+  display: flex;
+  width: 100%;
+}
+#secBox h1 {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  margin-top: 80px;
+  font-size: 1.8rem;
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: -25px;
+}
+#secBox .sec-1 {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  width: 53%;
+  height: 337px;
+}
+#secBox .myInput {
+  width: 82%;
+  justify-items: center;
+  margin: -40px auto;
+  margin-top: 56px;
+  padding: 8px;
+  font-size: 0.92rem;
+  font-family: "Nunito Sans";
+  border-radius: 36px;
+  outline: none;
+  box-shadow: 0px 0px 4px 0px grey;
+  border: 1px solid #0000004a;
+}
+#secBox .genderBox {
+  /* border: 2px solid red; */
+  height: 31px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 47px;
+  padding: 5px 43px;
+}
+#secBox .gg {
+  font-size: 1.1rem;
+  font-family: "Nunito Sans";
+  border: 1px solid #0000004a;
+  border-radius: 36px;
+  height: 38px;
+  width: 105px;
+  outline: none;
+  box-shadow: 0px 0px 4px 0px grey;
+  padding: 6px 12px;
+}
+#secBox .gm {
+  font-size: 1.1rem;
+  font-family: "Nunito Sans";
+  height: 38px;
+  width: 132px;
+  padding: 6px 11px;
+  margin: 0px 0px 0px 45px;
+}
+#secBox .gf {
+  font-size: 1.1rem;
+  font-family: "Nunito Sans";
+  height: 38px;
+  width: 130px;
+  padding: 6px 12px;
+  margin: 0px 0px 0px 12px;
+}
+#secBox .gm:hover {
+  border: 1px solid #0000004a;
+  border-radius: 36px;
+  height: 38px;
+  width: 130px;
+  outline: none;
+  box-shadow: 0px 0px 4px 0px grey;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+#secBox .gf:hover {
+  border: 1px solid #0000004a;
+  border-radius: 36px;
+  /* height: 38px; */
+  width: 130px;
+  outline: none;
+  box-shadow: 0px 0px 4px 0px grey;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+#secBox .sec-2 {
+  /* border: 2px solid orange; */
+  display: inline-block;
+  width: 50%;
+  height: 337px;
+}
+#secBox textarea {
+  margin-top: 54px;
+  border-radius: 23px;
+  padding: 8px;
+  font-size: 1rem;
+  font-family: "Nunito Sans";
+  box-shadow: 0px 0px 4px 0px grey;
+  border: 1px solid #0000004a;
+  outline: none;
+}
+#btn {
+  margin: 26px 43px;
+  width: 18%;
+  padding: 9px;
+  border: 0px solid black;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: "Ubuntu", sans-serif;
+  background: #00000094;
+  color: white;
+  outline: none;
+}
+#btn:hover {
+  background: black;
+  text-shadow: 0 0 14px white;
+}
+#secBox .follow {
+  justify-content: right;
+  display: flex;
+  align-items: center;
+  height: 32px;
+  padding-bottom: 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+#secBox .sec_img {
+  height: 27px;
+  width: 27px;
+  margin: 2px;
+}

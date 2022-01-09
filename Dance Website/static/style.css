@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Ubuntu&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#navbar {
+  position: relative;
+  background-color: #000000bf;
+  padding: 15px 0px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.1rem;
+}
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#navbar li {
+  list-style: none;
+}
+#navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 4px 18px;
+  margin: 0px 23px;
+}
+#navbar li a:hover {
+  cursor: pointer;
+  color: white;
+  text-shadow: 0px 0px 14px white;
+  background-color: #ffffff05;
+  border-radius: 12px;
+  text-decoration: none;
+  padding: 4px 18px;
+  margin: 0px 23px;
+}
+#introSection {
+  height: 526px;
+  color: white;
+  background: url(../static/bg.jpg) center top/cover no-repeat;
+  margin-top: -165px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  padding-top: 145px;
+}
+#introSection div.small {
+  font-size: 28px;
+  padding-top: 3px;
+}
+#missionSection {
+  background-color: #060606;
+  color: white;
+  height: 300px;
+}
+#missionSection h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  padding-top: 50px;
+  font-family: "Ubuntu", sans-serif;
+}
+#mission {
+  margin: 15px;
+  display: flex;
+}
+#mission .card {
+  display: block;
+  margin: 3px 15px;
+  width: 100%;
+  height: 200px;
+  border: 2px dotted red;
+  border-radius: 9px;
+  padding: 4px 7px;
+  font-family: "Ubuntu", sans-serif;
+}
+#mission .card img {
+  height: 128px;
+  width: 115px;
+  margin-top: 19px;
+  filter: invert();
+}
+#mission .card h3 {
+  display: block;
+  font-size: 1.1rem;
+  text-align: center;
+}
+#mission .card p {
+  display: inline-block;
+  width: 248px;
+  height: 99px;
+  text-align: justify;
+}
+#sponsorSection {
+  background-color: #060606;
+  color: white;
+  height: 300px;
+}
+#sponsorSection h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  padding-top: 70px;
+  font-family: "Ubuntu", sans-serif;
+}
+.sponsors {
+  height: 100px;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
+.sponsors img {
+  height: 150px;
+  width: 155px;
+  margin: 18px auto;
+}
+#footerSection {
+  height: 27px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+}

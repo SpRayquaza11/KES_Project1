@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+      include ../static/contact.css
+
+block content 
+    div#priBox
+        img(src="/static/contact-form.jpg", alt="Contact-img", class="prim_img")
+        div#secBox
+            h1 Contact Us
+            form(action="/contact", method="post", class="myForm") 
+                div.sec-1
+                    input(type="text", class="myInput", name="name", placeholder="Your Name")
+                    input(type="email", class="myInput", name="email", placeholder="Your Email")
+                    input(type="phone", class="myInput", name="phone", placeholder="Your Contact No.")
+                    div.genderBox
+                        div.gg Gender: 
+                        label.gm
+                            input(type="radio", class="gender", name="gender")
+                            span &nbsp; Male 
+                        label.gf
+                            input(type="radio", class="gender", name="gender")
+                            span &nbsp; Female 
+                    button#btn Submit 
+                div.sec-2
+                    textarea(name="address", cols="39", rows="8", placeholder="Your Message")
+            div.follow Follow us On: 
+                img(src="/static/wp.png", alt="Facebook-logo", class="sec_img")
+                img(src="/static/fb.png", alt="Facebook-logo", class="sec_img")
+                img(src="/static/insta.png", alt="Facebook-logo", class="sec_img")
+
+    //- form(action="/contact", method="post", class="myForm") 
+    //-     input(type="text", class="myInput", name="name", placeholder="Enter your Name")
+    //-     input(type="text", class="myInput", name="name", placeholder="Enter your Name")
+    //-     input(type="text", class="myInput", name="name", placeholder="Enter your Name")
+    //-     input(type="text", class="myInput", name="name", placeholder="Enter your Name")
+    //-     input(type="text", class="myInput", name="name", placeholder="Enter your Name")
+
