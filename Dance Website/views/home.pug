@@ -1,0 +1,34 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    section#introSection  
+      div Welcome to Rishabh's Dance Academy 
+      div.small Anybody Can Dance
+    section#missionSection 
+      h2 Our Mission 
+      div#mission
+        div.card
+          h3 Dance Perfection  
+          img(src="../static/1.png", alt="Icon-1")
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam culpa quo ea fuga laboriosam harum cupiditate possimus ex labore repudiandae.
+        div.card
+          h3 Dance the way you like
+          img(src="../static/2.png", alt="Icon-1")
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates sunt suscipit corrupti commodi alias quas impedit magnam molestiae excepturi aperiam.
+        div.card
+          h3 Expert Teaching 
+          img(src="../static/3.png", alt="Icon-1")
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut suscipit eveniet et, explicabo iure itaque enim atque nisi reiciendis ducimus.
+    section#sponsorSection  
+      h2 Our Sponsors 
+      div.sponsors
+        img(src="../static/C1.png", alt="Sponsor-1")
+        img(src="../static/C3.png", alt="Sponsor-2")
+        img(src="../static/C4.png", alt="Sponsor-3")
